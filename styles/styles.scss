@@ -42,9 +42,10 @@ h2 {
 }
 
 .lottie {
-  width: 100%;
+//   border: 2px solid red;
+  width: 100vw;
   height: 100vh;
-  background-size: cover;
+  object-fit: cover;
   pointer-events: none;
 }
 
